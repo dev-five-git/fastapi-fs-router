@@ -28,7 +28,9 @@ jobs:
           uv run ruff format src/ tests/
           uv run pytest
       - name: Publish to pypi
-        run: uv publish
+        run: |
+          uv build
+          uv publish
         env:
           PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
         if: github.event_name == 'workflow_dispatch'
