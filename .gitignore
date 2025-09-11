@@ -1,0 +1,14 @@
+.coverage
+coverage.xml
+coverage*
+htmlcov
+.pytest_cache
+.ruff_cache
+.vscode
+.idea
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+__pycache__
