@@ -1,4 +1,4 @@
-name: Publish Package to npm and pip
+name: Publish Package to pip
 
 on:
   workflow_dispatch:
