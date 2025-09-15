@@ -51,7 +51,7 @@ def load_fs_router(
     if not route_dir.exists():
         return
     collected_apis = []
-    python_root = Path(sys.path[0])
+    python_root = Path(sys.path[0]).resolve()
     cwd = Path(os.getcwd())
 
     normalized_dir = (cwd / route_dir).relative_to(python_root)
