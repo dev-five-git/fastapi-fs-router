@@ -1,6 +1,6 @@
 [project]
 name = "fastapi-fs-router"
-version = "0.1.0"
+version = "0.1.1"
 description = "Add your description here"
 readme = "README.md"
 authors = [{ name = "owjs3901", email = "owjs3901@gmail.com" }]
